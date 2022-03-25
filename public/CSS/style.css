@@ -1,0 +1,73 @@
+body{
+	margin-top:0px;
+	background-image: url(/images/q150Icer_4x.jpg);
+	background-size: cover;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.login{
+	max-width: 295px;
+	margin: 0 auto;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.15);
+	
+}
+.login-logo{
+	align-self: center;
+	padding-left: 10px;
+	margin-top:100px
+} 
+
+.logo {
+	display:block;
+	max-width: 150px;
+	margin:0 auto;
+	align-items:center;
+}
+.login-content{
+    border-radius: 35px;
+	padding: 50px 30px 30px 30px;
+	background: white;
+	font-size:25px;
+	font-style: bold;
+}
+.login-header{
+	margin-top:30px;
+	margin-bottom:15px;
+	margin-left: 35%;
+	align-items:center;
+	font-weight:bold;
+}
+.login-input{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 11px;
+	border-radius: 5px;
+	border: 2px solid #dddd;
+	background:#ffff;
+	outline:none;
+	transition: border-color 0.5s;
+}
+.login-input:focus{
+	border-color: aquamarine;
+}
+.login-button{
+	padding:15px;
+	color: white;
+	font-weight:bold;
+	background:rgb(14, 201, 139);
+	width:100%;
+	border: none;
+	outline: none;
+	border-radius:5px;
+	cursor: pointer;
+}
+.login-button:hover {
+	background:rgb(42, 139, 107)
+
+}
